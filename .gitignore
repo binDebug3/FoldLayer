@@ -1,0 +1,66 @@
+gits.sh
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Pytest
+.cache/
+
+# IDE or editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python test reports
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python specific files
+*.pyo
+*.pyd
+
+# PyCharm specific
+.idea/
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# Python wheel files
+*.whl
+
+# Pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+
+# Bandit
+.bandit/
+
+# C extensions
+*.so
