@@ -57,7 +57,16 @@ python -m pip install --upgrade FoldLayer
 This section is under development. Please check back soon for usage instructions.
 
 ```python
-import fold_layer
+from FoldLayer import Fold, SoftFold
+import torch.nn as nn 
+
+class ToyModel(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.fold = Fold(2)
+        
+    def forward(self, x:torch.Tensor) -> torch.Tensor:
+        return self.fold(x)
 ```
 
 
